@@ -28,8 +28,8 @@ const Navs: any[] = [
         label: "Support",
         items: [
             {
-                href: `mailto:support@${siteConfig.domain}`,
-                title: `support@${siteConfig.domain}`,
+                href: `mailto:86rudysteiner@gmail.com`,
+                title: `86rudysteiner@gmail.com`,
             },
         ],
     },

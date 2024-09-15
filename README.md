@@ -104,7 +104,7 @@ pnpm dev
 
 ![fluximage.org](https://pub-f5fc00c4ca7b445d95004c53d4b77e82.r2.dev/images/%E6%88%AA%E5%B1%8F2024-08-16%2011.42.05.png "Flux AI Image Generator")
 
-#### 7.preview replicate res
+#### 7. preview replicate res
 ``` 
 const prediction = {
        id: '4t8bgnnba5rm40cht30rjgfd60',
