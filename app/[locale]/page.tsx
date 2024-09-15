@@ -46,12 +46,12 @@ export default async function Home() {
     // const t = await getTranslations('Home');
     const [err, res] = await to(
         getHomeGallery([
-            "clzqha18o000hf7epmcy36ota",
-            "clztis2wr0000dos009045eim",
-            "clzstbogb00043pc51b6e5r4e",
+            "cm13lahlk0001m55yw1byr0ej",
+            "cm13jk081000111bdmzdied6a",
+            "cm13j0vyd00014l00wvhf3948",
             // "clzsta5kg00033pc543hpvr0h",
             // "clzst8hh100023pc56ev2s2gm",
-            "clzre9vjb0008688297jwhatc",
+            "cm13fiu4w0001qcvze6428ffz",
 
             // "clzuozryv000014lcj7o0ggty",
             // "clzu34g4x0000uuf38k5260td",
