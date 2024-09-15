@@ -71,12 +71,12 @@ window.addEventListener('load', () => {
             HSThemeAppearance.setAppearance(e.target.checked ? 'dark' : 'default')
         })
 
-        $item.checked = HSThemeAppearance.getAppearance() === 'dark'
+        $item.checked = HSThemeAppearance.getAppearance() === 'light'
     })
 
     window.addEventListener('on-hs-appearance-change', e => {
         $switchableThemes.forEach($item => {
-            $item.checked = e.detail === 'dark'
+            $item.checked = e.detail === 'light'
         })
     })
 })
