@@ -222,7 +222,7 @@ const ImageDetails = ({ generation }: any) => {
                         {/* Button Group */}
                         <div className="space-y-4">
                             <a
-                                href="/ai-image-generator"
+                                href="/image-generator"
                                 className="block w-full"
                             >
                                 <button

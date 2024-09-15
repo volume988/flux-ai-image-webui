@@ -52,7 +52,9 @@ create tables and migrate:
 npx prisma generate
 prisma migrate dev
 ```
-
+#### Auth config(optional)
+* github auth
+* google auth 
 #### 4. copy .env.example and rename it to .env
 
 ```
@@ -102,7 +104,28 @@ pnpm dev
 
 ![fluximage.org](https://pub-f5fc00c4ca7b445d95004c53d4b77e82.r2.dev/images/%E6%88%AA%E5%B1%8F2024-08-16%2011.42.05.png "Flux AI Image Generator")
 
-
+#### preview replicate res
+``` 
+const prediction = {
+       id: '4t8bgnnba5rm40cht30rjgfd60',
+       model: 'replicate/flux-dev-internal-model',
+       version: 'dp-5ef4d48e7d4b468eb6478ff87ba26638',
+       input: {
+         output_format: 'png',
+         prompt: 'instagram photo, portrait photo of a woman img, colorful, perfect face, natural skin, hard shadows, film grain'
+       },
+       logs: '',
+       output: null,
+       data_removed: false,
+       error: null,
+       status: 'starting',
+       created_at: '2024-09-08T08:30:38.929Z',
+       urls: {
+         cancel: 'https://api.replicate.com/v1/predictions/4t8bgnnba5rm40cht30rjgfd60/cancel',
+         get: 'https://api.replicate.com/v1/predictions/4t8bgnnba5rm40cht30rjgfd60'
+       }
+  };
+```
 
 ## Link Me
 

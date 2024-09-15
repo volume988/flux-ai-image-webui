@@ -13,6 +13,7 @@ import { Gallery } from "react-grid-gallery";
 import { getGenerationList } from "@/services/handleImage";
 import ImageGallery from "@/components/Generator/ImageGallery";
 import EmptyGallery from "@/components/Generator/EmptyGallery";
+import { uploadFile, getFileStream } from "@/lib/s3";
 
 export async function generateMetadata({ params }: any) {
     const t = await getTranslations("Explore");

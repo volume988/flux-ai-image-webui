@@ -14,6 +14,7 @@ import { getMessages } from "next-intl/server";
 import { cn } from "@/lib/utils";
 import GradientBg from "@/components/Gradients/GradientBg";
 import { AppContextProvider } from "@/contexts/AppContext";
+import { Analytics } from "@vercel/analytics/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +22,7 @@ export async function generateMetadata({ params }: any) {
     const t = await getTranslations("Home");
 
     return {
-        title: "Flux AI Image Generator - Free Image Generator | fluximage.org",
+        title: "Flux AI Image Generator - Free Image Generator | imagenWorks.com",
         description: t("layoutDescription"),
         icons: {
             icon: "/favicon.ico",
@@ -108,6 +109,7 @@ export default async function RootLayout({
                 ) : (
                     <></>
                 )}
+                <Analytics/>
                 <PrelineScript />
                 {/* <Script async src="https://platform.twitter.com/widgets.js" /> */}
             </body>

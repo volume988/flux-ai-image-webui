@@ -19,6 +19,17 @@ export async function updateGeneration(id: string, data: any) {
     return generation;
 }
 
+export async function updateGenerationByPredictionId(id: string, data: any) {
+    // 提交数据库
+    const generation = await prisma.generation.updateMany({
+        where: {
+            predictionId: id,
+        },
+        data,
+    });
+    return generation;
+}
+
 export async function queryGeneration({ id }: any) {
     // 提交数据库
     const generation =
@@ -37,9 +48,9 @@ export async function queryGenerationByIds({ ids }: { ids: string[] }) {
         orderBy: {
             createdAt: "desc",
         },
-        // where: {
-        //   isPublic: true,
-        // },
+        where: {
+           isPublic: true,
+        },
         where: {
             // generation: {
             //     not: null || "",

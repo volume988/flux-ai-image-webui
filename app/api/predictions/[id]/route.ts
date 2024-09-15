@@ -1,6 +1,8 @@
 import { NextResponse } from "next/server";
 import Replicate from "replicate";
 import { unstable_noStore as noStore } from "next/cache";
+import { updateGeneration, updateGenerationByPredictionId } from "@/models/generation";
+import { uploadFile, getFileStream } from "@/lib/s3";
 
 const replicate = new Replicate({
   auth: process.env.REPLICATE_API_TOKEN,
@@ -14,13 +16,39 @@ replicate.fetch = (url, options) => {
 
 export async function GET(request: Request, { params }: any) {
   noStore();
-  let prediction: any
   // handle replicate / fal ... api
-
+  const  predictionId = params.id;
+  if (predictionId === null) {
+    return NextResponse.json(
+        {
+          'status':'failed',
+        },
+        { status: 200 }
+      )
+  }
+  let prediction = await replicate.predictions.get(predictionId);
+  console.log('Get prediction: %s,Res:%o', predictionId, prediction);
+  if (prediction.status === "succeeded" && prediction.output !== null && prediction.output.length > 0 ) {
+  console.info("Get prediction succeeded:", predictionId, prediction);
+  const name = predictionId + '.png'
+  let url = prediction.output !== null && prediction.output.length >= 1 ? prediction.output[0]: '';
+  const buffer = await getFileStream(url);
+  const uploadParams = {
+       FileName: name,
+       fileBuffer: buffer,
+       objectKey: 'selected/'+name
+   }
+   const uploadRes = await uploadFile(uploadParams);
+   url = uploadRes !== null ? uploadRes : url;
+   const generationRecord = {
+       imgUrl: url,
+       generation: url
+    };
+    const genRes = await updateGenerationByPredictionId(predictionId, generationRecord);
+    console.log('update res:', predictionId, genRes);
+  }
   return NextResponse.json(
-    {
-      prediction,
-    },
+    prediction,
     { status: 200 }
   );
 }

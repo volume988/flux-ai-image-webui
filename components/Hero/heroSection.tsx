@@ -39,14 +39,14 @@ const HeroSection: FC = () => {
                                 <a
                                     className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent bg-blue-600 text-white hover:bg-blue-700 focus:outline-none focus:bg-blue-700 disabled:opacity-50 disabled:pointer-events-none"
                                     // href="/generation"
-                                    href="/ai-image-generator"
+                                    href="/image-generator"
                                 >
                                     {t("hero.buttonText")}
                                     <ChevronRight className="size-4" />
                                 </a>
                                 <a
                                     className="py-3 px-4 inline-flex items-center gap-x-2 text-sm font-medium rounded-lg border border-transparent text-gray-800 hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none dark:text-white dark:hover:bg-neutral-800 dark:focus:bg-neutral-800"
-                                    href="/ai-image-generator"
+                                    href="/image-generator"
                                 >
                                     <WandSparkles className="w-5 h-5" />
                                     {t("hero.tryButtonText")}

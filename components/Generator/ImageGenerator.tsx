@@ -52,25 +52,25 @@ const ImageGenerator = ({ user, generated }: any) => {
             label: "16:9",
             ratio: "16:9",
             id: "ratio-16-9",
-            // disabled: user?.credits <= 1,
+            disable: true,
         },
         {
             label: "9:16",
             ratio: "9:16",
             id: "ratio-9-16",
-            // disabled: user?.credits <= 1,
+            disable: true,
         },
         {
             label: "3:2",
             ratio: "3:2",
             id: "ratio-3-2",
-            // disabled: user?.credits <= 1,
+            disable: true,
         },
         {
             label: "2:3",
             ratio: "2:3",
             id: "ratio-2-3",
-            // disabled: user?.credits <= 1,
+            disable: true,
         },
     ]);
     const [model, setModel] = useState([

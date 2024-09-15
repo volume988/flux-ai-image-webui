@@ -5,7 +5,7 @@ const Navs: any[] = [
         label: "Resource",
         items: [
             { title: "FAQ", href: "/#FAQ" },
-            { title: "Generation", href: "/ai-image-generator" },
+            { title: "Generation", href: "/image-generator" },
             { title: "Explore", href: "/explore-image" },
             { title: "Pricing", href: "/pricing" },
         ],
@@ -42,15 +42,10 @@ const Navs: any[] = [
                 content: "Flux Image AI",
             },
             {
-                href: "https://liveportraitai.com",
-                title: "LivePortrait AI Animation Generator",
-                content: "LivePortrait AI",
-            },
-            {
-                href: "https://imagetoprompt.club",
-                title: "Image To Prompt",
-                content: "Image To Prompt",
-            },
+                href: "https://jsonhome.com",
+                title: "JSON editor,formatter,comparator",
+                content: "JSON online",
+            }
         ],
     },
 ];

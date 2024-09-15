@@ -15,6 +15,7 @@ import SignButtonGroup from "@/components/Nav/SignButtonGroup";
 import MobileListButton from "@/components/Nav/MobileListButton";
 import DarkModeToggle from "@/components/Nav/DarkModeToggle";
 import LocaleSwitcher from "@/components/Nav/LocaleSwitcher";
+import Github from "@/components/Nav/Github";
 
 const CloseIcon = (
   <svg
@@ -77,10 +78,13 @@ export default function Navbar({ user = null }: { user: any }) {
           <div className="hidden md:flex items-center gap-x-4 ms-auto py-1 md:ps-6 md:order-3">
             {/* Dark Mode Toggle */}
             <DarkModeToggle />
+             <Github />
             {/* End Dark Mode Toggle */}
             {!user ? (
               <div className="flex items-center gap-x-3">
+
                 <LocaleSwitcher />
+
                 {/* For PC Sign Button Group */}
                 <SignButtonGroup />
               </div>
@@ -97,6 +101,7 @@ export default function Navbar({ user = null }: { user: any }) {
           <div className="md:hidden flex gap-x-4">
             {/* Dark Mode Toggle For Mobile */}
             <DarkModeToggle />
+             <Github />
             {/* End Dark Mode Toggle For Mobile */}
             <UserDropdown user={user} />
             <MobileListButton />

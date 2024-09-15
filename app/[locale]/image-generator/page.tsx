@@ -22,12 +22,12 @@ export async function generateMetadata({ params }: any) {
         alternates: {
             canonical: `${siteConfig.url}${
                 params.locale === "en" ? "" : `/${params.locale}`
-            }/ai-image-generator`,
+            }/image-generator`,
             languages: {
                 ...Object.fromEntries(
                     languages.map((item) => [item.hrefLang, `/${item.lang}`])
                 ),
-                "x-default": "/ai-image-generator",
+                "x-default": "/image-generator",
             },
         },
     };

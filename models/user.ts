@@ -48,6 +48,28 @@ export async function updateUserInfo(email: string, data: any) {
     // return result
 }
 
+export async function decrement(email: string, credit: Int) {
+    try {
+        const result = await prisma.user.update({
+            where: {
+                email,
+                credits:{
+                  gt:0
+                }
+            },
+            data:{
+                 credits:{
+                    decrement : credit
+                 }
+            },
+        });
+        return result;
+    } catch (error) {
+        console.error("updateUserInfo error", error);
+    }
+    // return result
+}
+
 export async function updateUserInfoById(userId: string, data: any) {
     try {
         const result = await prisma.user.update({

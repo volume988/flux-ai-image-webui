@@ -1,8 +1,8 @@
 export const siteConfig: any = {
-  name: "Flux AI",
-  url: process.env.NEXTAUTH_URL || "https://fluximage.org",
-  domain: "fluximage.org",
-  mail: "support@fluximage.org",
+  name: "ImagenWorks",
+  url: process.env.NEXTAUTH_URL || "https://imagenWorks.com",
+  domain: "imagenWorks.com",
+  mail: "support@imagenWorks.org",
   effectiveDate: "2024.8.9"
 };
 

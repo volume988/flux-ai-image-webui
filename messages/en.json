@@ -1,23 +1,23 @@
 {
     "Home": {
-        "layoutTitle": "Flux AI Image Generator: The Future of Creative Visualization",
-        "layoutDescription": "Explore the limitless potential of Flux AI, the premier AI image generator that transforms your text descriptions into stunning, unique visuals.",
-        "pageDescription": "With Flux AI, crafting high-quality, royalty-free images from simple text prompts has never been easier. Join the forefront of digital art and design with our advanced AI platform.",
+        "layoutTitle": "Text to Image Generator: The Future of Creative Visualization",
+        "layoutDescription": "Explore the limitless potential of Flux.1, the premier AI image generator that transforms your text descriptions into stunning, unique visuals.",
+        "pageDescription": "With ImagenWorks, crafting high-quality, royalty-free images from simple text prompts has never been easier. Join the forefront of digital art and design with our advanced AI platform.",
         "hero": {
-            "title": "Your Gateway to AI-Powered Art Flux AI Image Generator",
-            "description": "Transform your imagination into reality with Flux AI's state-of-the-art AI technology. Describe your vision, and watch as Flux brings it to life.",
-            "subtitle": "Unlock the power of FLUX.1 Schnell",
-            "buttonText": "Get started with Flux AI",
-            "tryButtonText": "Generate flux image for free"
+            "title": "Flux.1 Powered Art Image Generator",
+            "description": "Transform your imagination into reality with Flux.1 state-of-the-art AI technology. Describe your vision, and watch as Flux brings it to life.",
+            "subtitle": " Sign in to get 10 free credits | Unlock the power of FLUX.1 Schnell",
+            "buttonText": "Get started with ImagenWorks",
+            "tryButtonText": "Generate images for free"
         },
         "features": {
             "type": "features",
-            "title": "Why Choose Flux AI?",
+            "title": "Why Choose ImagenWorks?",
             "features": {
                 "length": "4",
                 "1": {
                     "title": "User-Friendly Experience",
-                    "description": "Flux offers a seamless and intuitive platform for AI image generation. Simply input your text prompt, choose your style, and let our AI handle the rest."
+                    "description": "ImagenWorks offers a seamless and intuitive platform for AI image generation. Simply input your text prompt, choose your style, and let our AI handle the rest."
                 },
                 "2": {
                     "title": "High-Quality Outputs",
@@ -35,7 +35,7 @@
         },
         "howItWorks": {
             "type": "howItWorks",
-            "title": "How Flux AI Works",
+            "title": "How ImagenWorks Works",
             "steps": {
                 "length": "4",
                 "1": {
@@ -62,7 +62,7 @@
         },
         "gallery": {
             "type": "gallery",
-            "title": "Discover the Flux AI Gallery",
+            "title": "Discover the ImagenWorks Gallery",
             "images": [
                 {
                     "url": "https://example.com/gallery-image-1.jpg",
@@ -88,37 +88,37 @@
             "testimonials": {
                 "length": "6",
                 "1": {
-                    "quote": "\"Flux AI has revolutionized my creative process. The variety and quality of images I can generate are astonishing.\"",
+                    "quote": "\"ImagenWorks has revolutionized my creative process. The variety and quality of images I can generate are astonishing.\"",
                     "avatar": "/Angel-Stewart.jpg",
                     "author": "Angel Stewart",
                     "job": "Digital Artist"
                 },
                 "2": {
-                    "quote": "\"The precision with which Flux AI interprets my prompts is unmatched. It's like having a world-class artist at my fingertips.\"",
+                    "quote": "\"The precision with which ImagenWorks interprets my prompts is unmatched. It's like having a world-class artist at my fingertips.\"",
                     "avatar": "/Noelle-Kim.jpg",
                     "author": "Noelle Kim",
                     "job": "Graphic Designer"
                 },
                 "3": {
-                    "quote": "\"As a game developer, Flux AI has been an invaluable tool for creating concept art quickly and efficiently. It saves me so much time.\"",
+                    "quote": "\"As a game developer, ImagenWorksI has been an invaluable tool for creating concept art quickly and efficiently. It saves me so much time.\"",
                     "avatar": "/Willie-Parker.jpg",
                     "author": "Willie Parker",
                     "job": "Game Developer"
                 },
                 "4": {
-                    "quote": "\"I love how easy it is to experiment with different styles using Flux AI. It’s a playground for my creativity!\"",
+                    "quote": "\"I love how easy it is to experiment with different styles using ImagenWorks. It’s a playground for my creativity!\"",
                     "avatar": "/Charles-Turner.jpg",
                     "author": "Charles Turner",
                     "job": "Illustrator"
                 },
                 "5": {
-                    "quote": "\"Flux AI's technology is mind-blowing. The images are not only high-quality but also incredibly unique and inspiring.\"",
+                    "quote": "\"ImagenWorks's technology is mind-blowing. The images are not only high-quality but also incredibly unique and inspiring.\"",
                     "avatar": "/Donald-Smith.jpg",
                     "author": "Donald Smith",
                     "job": "Content Creator"
                 },
                 "6": {
-                    "quote": "\"The user-friendly interface and the range of customization options make FluxAI my go-to tool for visual content creation.\"",
+                    "quote": "\"The user-friendly interface and the range of customization options make ImagenWorks my go-to tool for visual content creation.\"",
                     "avatar": "/Brayden-Prescott.jpg",
                     "author": "Brayden Prescott",
                     "job": "Social Media Manager"
@@ -127,43 +127,43 @@
         },
         "technology": {
             "type": "technology",
-            "title": "The Technology Behind Flux AI",
-            "description": "Flux AI utilizes advanced transformer-based models and the latest AI research from BlackForestLabs. With 12 billion parameters and multiple model variants like FLUX.1 [Pro], [Dev], and [Schnell], our technology caters to a wide range of needs, from high-end professional projects to fast, personal use. The models are optimized for superior prompt adherence, detail, and output diversity."
+            "title": "The Technology Behind ImagenWorks",
+            "description": "ImagenWorks utilizes advanced transformer-based models and the latest AI research from BlackForestLabs. With 12 billion parameters and multiple model variants like FLUX.1 [Pro], [Dev], and [Schnell], our technology caters to a wide range of needs, from high-end professional projects to fast, personal use. The models are optimized for superior prompt adherence, detail, and output diversity."
         },
         "callToAction": {
             "type": "callToAction",
-            "title": "Join the Flux AI Image Revolution",
+            "title": "Join the ImagenWorks Image Revolution",
             "description": "Step into the future of art and design with Flux AI. Create a free account and start generating incredible images today. Whether you're an artist, designer, or simply a creative enthusiast, Flux AI offers a powerful toolset for all your visual creation needs.",
-            "buttonText": "Start Creating With Flux AI"
+            "buttonText": "Start Creating ImagenWorks"
         },
         "faq": {
             "type": "faq",
-            "title": "Frequently Asked Questions About Flux AI Image",
+            "title": "Frequently Asked Questions About ImagenWorks",
             "questions": {
                 "length": "9",
                 "1": {
-                    "question": "Is Flux AI free to use?",
-                    "answer": "Yes, Flux AI offers free access with its [Schnell] model. For more advanced features, explore our [Pro] and [Dev] models, available through various platforms like API, Replicate, and fal.ai."
+                    "question": "Is ImagenWorks free to use?",
+                    "answer": "Yes, ImagenWorks offers free access with its [Schnell] model. For more advanced features, explore our [Pro] and [Dev] models, available through various platforms like API, Replicate, and fal.ai."
                 },
                 "2": {
-                    "question": "What kind of images can I create with Flux AI?",
-                    "answer": "Flux AI can generate a wide array of images, from photorealistic portraits to abstract art, depending on your prompts and chosen styles."
+                    "question": "What kind of images can I create with ImagenWorks?",
+                    "answer": "ImagenWorks can generate a wide array of images, from photorealistic portraits to abstract art, depending on your prompts and chosen styles."
                 },
                 "3": {
-                    "question": "Can I use Flux AI for commercial projects?",
-                    "answer": "Absolutely! All images generated by Flux AI are royalty-free and can be used for both personal and commercial projects."
+                    "question": "Can I use ImagenWorks for commercial projects?",
+                    "answer": "Absolutely! All images generated by ImagenWorks are royalty-free and can be used for both personal and commercial projects."
                 },
                 "4": {
-                    "question": "What technology powers Flux AI?",
-                    "answer": "Flux AI is powered by advanced AI models developed by BlackForestLabs, leveraging state-of-the-art transformer architectures and diffusion models to deliver high-quality images."
+                    "question": "What technology powers ImagenWorks?",
+                    "answer": "ImagenWorks is powered by advanced AI models developed by BlackForestLabs, leveraging state-of-the-art transformer architectures and diffusion models to deliver high-quality images."
                 },
                 "5": {
-                    "question": "How does Flux AI ensure the accuracy of generated images?",
-                    "answer": "Flux AI utilizes cutting-edge prompt following technology, which accurately interprets and visualizes detailed text descriptions, ensuring the generated images closely match user expectations."
+                    "question": "How does ImagenWorks ensure the accuracy of generated images?",
+                    "answer": "ImagenWorks utilizes cutting-edge prompt following technology, which accurately interprets and visualizes detailed text descriptions, ensuring the generated images closely match user expectations."
                 },
                 "6": {
                     "question": "Can I customize the styles and themes of the images?",
-                    "answer": "Yes, Flux AI offers a wide range of customization options, allowing users to select different styles, genres, and influences to tailor the visual output according to their preferences."
+                    "answer": "Yes, ImagenWorks offers a wide range of customization options, allowing users to select different styles, genres, and influences to tailor the visual output according to their preferences."
                 },
                 "7": {
                     "question": "How frequently are the models updated?",
@@ -171,27 +171,27 @@
                 },
                 "8": {
                     "question": "Is there support for enterprise use?",
-                    "answer": "Yes, Flux AI provides dedicated solutions for enterprise clients, including API access and custom integrations. For more information, please contact our enterprise support team."
+                    "answer": "Yes, ImagenWorks provides dedicated solutions for enterprise clients, including API access and custom integrations. For more information, please contact our enterprise support team."
                 },
                 "9": {
                     "question": "What are the differences between Flux.1's [Dev], [Pro], and [Schnell] models?",
-                    "answer": "Flux AI offers three distinct models tailored for different user needs:<br/><br/>Schnell: This is the free and fastest model, ideal for quick prototyping and casual use. It provides basic functionalities and generates images at a lower resolution.<br/><br/>Pro: The [Pro] model offers enhanced capabilities, including higher resolution outputs and access to advanced features. It is designed for professional use, such as high-quality digital art and commercial projects.<br/><br/>Dev: The [Dev] model is geared towards developers and AI enthusiasts. It provides deeper customization options, API access, and is suited for integrating AI-generated images into apps,games, and other software.<br/><br/>Each model balances performance, speed, and accessibility to cater to a diverse range of creative and professional needs."
+                    "answer": "ImagenWorks offers three distinct models tailored for different user needs:<br/><br/>Schnell: This is the free and fastest model, ideal for quick prototyping and casual use. It provides basic functionalities and generates images at a lower resolution.<br/><br/>Pro: The [Pro] model offers enhanced capabilities, including higher resolution outputs and access to advanced features. It is designed for professional use, such as high-quality digital art and commercial projects.<br/><br/>Dev: The [Dev] model is geared towards developers and AI enthusiasts. It provides deeper customization options, API access, and is suited for integrating AI-generated images into apps,games, and other software.<br/><br/>Each model balances performance, speed, and accessibility to cater to a diverse range of creative and professional needs."
                 }
             }
         }
     },
     "Playground": {
-        "layoutTitle": "Flux AI Playground - Explore AI Image Generator for free",
-        "layoutDescription": "Dive into the Flux AI Playground, where you can explore AI-powered image generation for free. Try out different models like flux.1 dev to see the power of stable diffusion technology in action.",
-        "banner": "Flux AI Free Playground might be slow or not work sometimes due to high demand. If nothing happens after waiting, please go to"
+        "layoutTitle": "ImagenWorks Playground - Explore AI Image Generator for free",
+        "layoutDescription": "Dive into the ImagenWorks Playground, where you can explore AI-powered image generation for free. Try out different models like flux.1 dev to see the power of stable diffusion technology in action.",
+        "banner": "ImagenWorks Free Playground might be slow or not work sometimes due to high demand. If nothing happens after waiting, please go to"
     },
     "Generation": {
-        "layoutTitle": "Flux AI Image Generator - FLUX.1 [Pro], [Dev], [Schnell] | Flux Image AI",
+        "layoutTitle": "ImagenWorks Image Generator - FLUX.1 [Pro], [Dev], [Schnell] | Flux Image AI",
         "layoutDescription": "Explore the powerful features of Flux AI, Get started with Flux AI's image generator and bring your ideas to life.",
-        "pageTitle": "Flux AI Image Generator",
+        "pageTitle": "ImagenWorks Image Generator",
         "pageDescription": "transforms your text descriptions into stunning image",
         "formPromptsLabel": "Create a image from text prompt",
-        "formPromptsPlaceholer": "Generated content will appear here...",
+        "formPromptsPlaceholer": "Enter your image prompt here...",
         "formRatioLabel": "Aspect Ratio",
         "formModelsLabel": "Model",
         "formPublicLabel": "Public",
@@ -220,10 +220,10 @@
         "callToActionDescription": "Inspired to create? Get started with Flux AI's image generator and bring your ideas to life."
     },
     "Explore": {
-        "layoutTitle": "Flux Image AI - Explore Flux AI Creations | fluximage.org",
-        "layoutDescription": "Discover stunning artworks created by users with Flux AI's powerful image generator. Explore a variety of styles, themes, and creative expressions.",
-        "pageTitle": "Explore Flux AI Image Prompt",
-        "pageDescription": "From photorealistic portraits to abstract surrealism, Flux AI empowers users to bring their visions to life.",
+        "layoutTitle": "Flux Image AI - Explore Flux AI Creations | imagenworks.com",
+        "layoutDescription": "Discover stunning artworks created by users with ImagenWorks's powerful image generator. Explore a variety of styles, themes, and creative expressions.",
+        "pageTitle": "Explore ImagenWorks Image Prompt",
+        "pageDescription": "From photorealistic portraits to abstract surrealism, ImagenWorks empowers users to bring their visions to life.",
         "featuredArtworkTitle": "Featured Creations",
         "featuredArtwork": [
             {
@@ -261,39 +261,39 @@
             "Abstract",
             "Realism"
         ],
-        "userStoriesTitle": "What Our Users Say About Flux Image AI",
+        "userStoriesTitle": "What Our Users Say About ImagenWorks",
         "userStories": {
             "length": "2",
             "1": {
-                "quote": "Flux AI has unlocked new creative possibilities for me. The quality of the generated images is astounding!",
+                "quote": "ImagenWorks has unlocked new creative possibilities for me. The quality of the generated images is astounding!",
                 "avatar": "/Max-Holmes.jpg",
                 "user": "Max Holmes",
                 "role": "ArtEnthusiast"
             },
             "2": {
-                "quote": "I love experimenting with different styles using Flux AI. It's a game-changer for digital artists.",
+                "quote": "I love experimenting with different styles using ImagenWorks. It's a game-changer for digital artists.",
                 "avatar": "/Mattie-Kim.jpg",
                 "user": "Mattie Kim",
                 "role": "DigitalDreamer"
             }
         },
-        "callToActionTitle": "Join the Flux AI Community",
+        "callToActionTitle": "Join the ImagenWorks Community",
         "callToActionDescription": "Inspired by the creations you've seen? Start creating your own artwork with Flux AI today. Whether you're a seasoned artist or just starting, our tools make it easy to turn your ideas into reality."
     },
     "Details": {
-        "layoutTitle": "Flux AI - AI Generated Images by {modelName},download free png",
+        "layoutTitle": "ImagenWorks - AI Generated Images by {modelName},download free png",
         "layoutDescription": "Explore AI generated images made by {modelName}. for free download and Share free png or jpg, text prompt is {prompts}",
         "pageTitle": "AI Generated Images by <modelName></modelName>"
     },
     "Profile": {
-        "layoutTitle": "Flux AI Image Generator: The Future of Creative Visualization",
-        "layoutDescription": "Explore the limitless potential of Flux AI, the premier AI image generator that transforms your text descriptions into stunning, unique visuals."
+        "layoutTitle": "ImagenWorks Image Generator: The Future of Creative Visualization",
+        "layoutDescription": "Explore the limitless potential of ImagenWorks, the premier AI image generator that transforms your text descriptions into stunning, unique visuals."
     },
     "Pricing": {
-        "layoutTitle": "Flux AI Pricing - Find the Perfect Plan for You",
-        "layoutDescription": "Flux AI offers a range of pricing plans to suit your needs, whether you're an individual artist, a small business, or a large enterprise.",
-        "pageTitle": "Flux AI Pricing Plans",
-        "pageDescription": "Explore the pricing options for Flux AI. Choose the plan that fits your creative needs and budget.",
+        "layoutTitle": "ImagenWorks Pricing - Find the Perfect Plan for You",
+        "layoutDescription": "ImagenWorks offers a range of pricing plans to suit your needs, whether you're an individual artist, a small business, or a large enterprise.",
+        "pageTitle": "ImagenWorks Pricing Plans",
+        "pageDescription": "Explore the pricing options for ImagenWorks. Choose the plan that fits your creative needs and budget.",
         "subscribeBtn": "One-Time Payment",
         "SignBtn": "Sign Up",
         "pricingPlansTitle": "Pricing Plans",
@@ -352,16 +352,16 @@
                 }
             }
         },
-        "faqTitle": "Frequently Asked Questions of Flux AI Image Generator",
+        "faqTitle": "Frequently Asked Questions of ImagenWorks Image Generator",
         "faq": {
             "length": "5",
             "1": {
                 "question": "Is there a free flux Image AI plan?",
-                "answer": "Yes, Flux AI offer 10 credits to generate high quality pictures."
+                "answer": "Yes, ImagenWorks offer 10 credits to generate high quality pictures."
             },
             "2": {
-                "question": "How does Flux AI compare to other AI image generators?",
-                "answer": "Many of its competitors use its advanced Flux.1 pro model to produce higher quality images. Flux AI is faster than Midjourney and more user-friendly than ComfyUI"
+                "question": "How does ImagenWorks compare to other AI image generators?",
+                "answer": "Many of its competitors use its advanced Flux.1 pro model to produce higher quality images. ImagenWorks is faster than Midjourney and more user-friendly than ComfyUI"
             },
             "3": {
                 "question": "What is included in the Basic Plan?",

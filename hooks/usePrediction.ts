@@ -1,7 +1,7 @@
 import to from "await-to-js";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
-
+import { insertGeneration } from "@/models/generation";
 export const sleep = (ms: number) => new Promise((r) => setTimeout(r, ms));
 
 export function usePrediction() {
@@ -43,8 +43,7 @@ export function usePrediction() {
             return Promise.reject({ message: err.message });
         }
         let prediction = await response1.json();
-        const pid = prediction.dataId;
-
+        const pid = prediction.id;
         if (response1.status !== 201) {
             toast.error(prediction.detail);
             setError(prediction.detail);
@@ -63,19 +62,14 @@ export function usePrediction() {
                 { cache: "no-store" }
             );
             prediction = await response2.json();
+            // todo max wait times
             if (response2.status !== 200) {
                 toast.error(prediction.detail);
                 setError(prediction.detail);
                 return Promise.reject({ message: prediction.detail });
             }
-            // console.log({ prediction });
-            console.log("loading...");
-
-            if (prediction.output) {
-                setGeneration({ url: typeof prediction.output === "string" ? prediction.output : prediction?.output[0] });
-                return Promise.resolve(typeof prediction.output === "string" ? prediction.output : prediction?.output[0]);
-            }
-            setPrediction(prediction);
+            // console.log('polling res:',{ prediction });
+            //console.log("loading...");
         }
 
         // --------- mock start ---------
@@ -83,12 +77,13 @@ export function usePrediction() {
         // const prediction = {
         //   output: ["https://replicate.delivery/pbxt/yQkczwuNdb5fZ6P5MBb6ujhkZwgaefDGEAmYHDEse20T8z4MB/R8_LivePortrait_00001.mp4"],
         // };
-
-        // setPrediction({
-        //   output: prediction?.output,
-        // });
-        // setGeneratedList([prediction?.output[0], ...generatedList])
-        // console.info("handleStorage", prediction?.output[0])
+         setGeneration({ url: typeof prediction.output === "string" ? prediction.output : prediction?.output[0],
+          });
+         setPrediction({
+           output: prediction?.output,
+         });
+         setGeneratedList([prediction?.output[0], ...generatedList])
+         // console.info("handleStorage output", prediction?.output[0])
         // --------- mock end ---------
     };
 
