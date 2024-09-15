@@ -2,7 +2,7 @@
 
 Flux Image AI is an AI-powered image generation platform built using Next.js and the Flux.1 AI model. The platform allows users to create high-quality images from text prompts quickly and easily. It also features a prompt generator to help optimize image creation prompts.
 
-visit it ☞: [fluximage.org](https://fluximage.org)
+visit it ☞: [imagenWorks.com](https://imagenWorks.com)
 
 
 ## Features
@@ -104,7 +104,7 @@ pnpm dev
 
 ![fluximage.org](https://pub-f5fc00c4ca7b445d95004c53d4b77e82.r2.dev/images/%E6%88%AA%E5%B1%8F2024-08-16%2011.42.05.png "Flux AI Image Generator")
 
-#### preview replicate res
+#### 7.preview replicate res
 ``` 
 const prediction = {
        id: '4t8bgnnba5rm40cht30rjgfd60',
@@ -126,11 +126,6 @@ const prediction = {
        }
   };
 ```
+## Acknowledgements
 
-## Link Me
-
-Twitter: [https://x.com/candytools118](https://x.com/candytools118)
-
-if this project is helpful to you, buy me a coffee.
-
-[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/wuyasong)
+* [volume988](https://github.com/volume988)

@@ -78,7 +78,7 @@ export default function Navbar({ user = null }: { user: any }) {
           <div className="hidden md:flex items-center gap-x-4 ms-auto py-1 md:ps-6 md:order-3">
             {/* Dark Mode Toggle */}
             <DarkModeToggle />
-             <Github />
+            <Github />
             {/* End Dark Mode Toggle */}
             {!user ? (
               <div className="flex items-center gap-x-3">
