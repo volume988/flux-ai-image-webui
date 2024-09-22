@@ -61,11 +61,13 @@ export async function getGenerationList(
     };
 }
 
-export async function getUserGenertedList(
+export async function getUserGeneratedList(
+    userId: string,
     pageNo: number = 1,
-    pageSize: number = 48,
-    userId: string
+    pageSize: number = 8
 ) {
+    console.log('getUserGeneratedList:'+userId);
+    console.log('getUserGeneratedList pageNo:'+pageNo);
     pageNo = pageNo - 1 < 0 ? 0 : pageNo - 1;
     const offset = pageNo * pageSize;
     const [listErr, generationList] = await to(
@@ -98,7 +100,7 @@ export async function getUserGenertedList(
         generationList,
         pageNo: pageNo,
         total,
-        pageSize,
+        pageSize,count
     };
 }
 

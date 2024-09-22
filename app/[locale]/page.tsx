@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: any) {
     return {
         title: t("layoutTitle"),
         description: t("layoutDescription"),
-        keywords: 'flux ai,text to an image,text to the image,best text to image online,text to images,convert text to image,flux image generator,image generator online,ai image generator from text,ai image generator,realistic ai image generator, anime image generator',
+        keywords: 'flux ai, imagen, text to an image,text to the image,best text to image online,text to images,convert text to image,flux image generator,image generator online,ai image generator from text,ai image generator,realistic ai image generator, anime image generator',
         icons: {
             icon: "/favicon.ico",
             shortcut: "/favicon.png",

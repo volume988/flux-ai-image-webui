@@ -4,3 +4,8 @@ export const navigation = [
   { title: "Explore", href: "/explore-image" },
   { title: "FAQ", href: "/#FAQ" },
 ];
+
+export const profileNavigation = [
+  { title: "Generated", href: "/profile/image/1" },
+  { title: "Order Records", href: "/profile/order-records" }
+];
