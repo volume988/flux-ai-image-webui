@@ -6,6 +6,6 @@ export const navigation = [
 ];
 
 export const profileNavigation = [
-  { title: "Generated", href: "/profile/image/1" },
-  { title: "Order Records", href: "/profile/order-records" }
+  { title: "Generated", href: "/user/image" },
+  { title: "Order Records", href: "/user/order-records" }
 ];

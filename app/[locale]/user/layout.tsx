@@ -32,7 +32,7 @@ export default async function ExploreLayout({
         //console.info("GenerationPage locale:", locale);
     }
     return (
-         <div>
+          <div>
          <section class="relative mt-20 py-16 bg-blueGray-200">
                        <div class="container mx-auto px-4">
                          <div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg ">
@@ -78,11 +78,10 @@ export default async function ExploreLayout({
                            </div>
                          </div>
                        </div>
-
-                    </section>
-                    <Navbar />
-                    {children}
-                    </div>
+        </section>
+        <Navbar />
+        {children}
+        </div>
 
     );
 }

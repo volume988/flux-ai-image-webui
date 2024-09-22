@@ -63,7 +63,7 @@ export default function UserMenu({ user }: any) {
           >
             <Link href="/profile" className="cursor-pointer">
               <Icons.user className="mr-2 h-4 w-4" aria-hidden="true" />
-              My Profile
+              Profile
             </Link>
           </DropdownMenu.Item>
           {/* <DropdownMenu.Item

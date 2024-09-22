@@ -81,7 +81,7 @@ export default async function ExplorePage({
             ) : (
                 <ImageGallery
                     generationList={generationList}
-                    urlPrefix="/profile/image"
+                    urlPrefix="/user/image"
                     pageNo={page[0]}
                     total={total}
                     pageSize={pageSize}
