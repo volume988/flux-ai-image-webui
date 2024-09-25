@@ -22,7 +22,7 @@ const ImageGallery = ({
     function formatGenerationList(list: any[]) {
         if (list && list.length) {
             return list
-                .filter((item) => item.generation && item.isPublic)
+                .filter((item) => item.generation)
                 .map((item) => {
                     return {
                         id: item.id,

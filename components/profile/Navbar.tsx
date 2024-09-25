@@ -58,6 +58,7 @@ export default function Navbar({ user = null }: { user: any }) {
   const [state, setState] = useState(false);
   const pathname = usePathname();
   // todo  check login
+  console.log('path',pathname);
   if (pathname === "/sign-up" || pathname === "/sign-in") return null;
   return (
     <>
@@ -65,7 +66,7 @@ export default function Navbar({ user = null }: { user: any }) {
                   id="navbar-collapse-with-animation"
                   className="hs-collapse hidden overflow-hidden transition-all duration-300 basis-full grow md:block md:w-auto md:order-2 md:basis-auto"
                 >
-                  <div className="flex flex-col gap-y-4 gap-x-0 mt-5 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-7 md:mt-0">
+                  <div className="flex flex-col gap-y-4 gap-x-0 mt-5 mb-5 md:flex-row md:justify-center md:items-center md:gap-y-0 md:gap-x-7 md:mt-0">
                     {profileNavigation.map((item, idx) => {
                       return (
                         <div key={idx}>

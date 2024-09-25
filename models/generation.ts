@@ -72,13 +72,12 @@ export async function queryGenerationByNum({ offset, pageSize }: any) {
         orderBy: {
             createdAt: "desc",
         },
-        // where: {
-        //   isPublic: true,
-        // },
+
         where: {
             generation: {
                 not: null || "",
             },
+            isPublic: true,
         },
     };
     const result = await prisma.generation.findMany(params);

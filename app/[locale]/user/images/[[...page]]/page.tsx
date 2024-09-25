@@ -66,7 +66,7 @@ export default async function ExplorePage({
         total,
         pageSize,
         count
-    } = await getUserGeneratedList(userId,page[0],1);
+    } = await getUserGeneratedList(userId,page[0]);
 
     // console.info("generationList:", generationList)
 
@@ -81,7 +81,7 @@ export default async function ExplorePage({
             ) : (
                 <ImageGallery
                     generationList={generationList}
-                    urlPrefix="/user/image"
+                    urlPrefix="/user/images"
                     pageNo={page[0]}
                     total={total}
                     pageSize={pageSize}

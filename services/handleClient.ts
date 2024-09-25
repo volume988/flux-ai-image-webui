@@ -1,9 +1,12 @@
+
+'use server'
 import {
     queryGeneration,
     queryGenerationByIds,
     queryGenerationByNum,
     queryGenerationByUser,
     queryGenerationCount,
+    updateGeneration
 } from "@/models/generation";
 import to from "await-to-js";
 
@@ -40,8 +43,7 @@ export async function getGenerationList(
             // orderBy: { id: "desc" },
         })
     );
-    const isPublic = true;
-    const [countErr, count] = await to(queryGenerationCount({isPublic,}));
+    const [countErr, count] = await to(queryGenerationCount());
     const total = Math.ceil(count / pageSize);
 
     if (listErr) {
@@ -52,7 +54,7 @@ export async function getGenerationList(
         console.error(countErr.message);
     }
 
-    console.info(offset, pageSize, generationList.length, count);
+    console.info(offset, pageSize, generationList.length);
 
     return {
         generationList,
@@ -110,6 +112,27 @@ export async function getGenerationItem(generationId: string) {
         queryGeneration({
             id: generationId,
         })
+    );
+
+    if (generationErr) {
+        console.error("generationErr:", generationErr);
+        // toast.error(generationErr.message);
+        return Promise.reject(generationErr);
+    }
+
+    if (!generation.id) {
+        return Promise.reject(new Error("Not Found Flux Image Result."));
+    }
+
+    console.info("generation:", generation);
+
+    return Promise.resolve({ ...generation, url: generation.generation });
+}
+
+export async function handleUpdatePublic(generationId: string, isPublic: boolean) {
+    console.log('handle update public',isPublic)
+    const [generationErr, generation] = await to(
+        updateGeneration(generationId, {isPublic: isPublic})
     );
 
     if (generationErr) {
