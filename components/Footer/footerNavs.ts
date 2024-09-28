@@ -6,7 +6,7 @@ const Navs: any[] = [
         items: [
             { title: "FAQ", href: "/#FAQ" },
             { title: "Generation", href: "/image-generator" },
-            { title: "Explore", href: "/explore-image" },
+            { title: "Explore", href: "/explore" },
             { title: "Pricing", href: "/pricing" },
         ],
     },

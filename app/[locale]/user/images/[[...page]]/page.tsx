@@ -30,8 +30,8 @@ export async function generateMetadata({ params }: any) {
                 params.locale === "en" ? "" : `/${params.locale}`
             }${
                 !params.page || params.page[0] === 1
-                    ? `/explore-image`
-                    : `/explore-image/${params.page[0]}`
+                    ? `/explore`
+                    : `/explore/${params.page[0]}`
             }`,
             languages: {
                 ...Object.fromEntries(
@@ -39,8 +39,8 @@ export async function generateMetadata({ params }: any) {
                 ),
                 "x-default": `${
                     !params.page || params.page[0] === 1
-                        ? `/explore-image`
-                        : "/explore-image/" + params.page[0]
+                        ? `/explore`
+                        : "/explore/" + params.page[0]
                 }`,
             },
         },
@@ -57,9 +57,8 @@ export default async function ExplorePage({
      const userInfo = await getUserInfo(user?.email || "");
      const userId = userInfo?.id;
      console.info("userId", userId);
-    console.info("ExplorePage locale:", locale);
-    const t = await getTranslations("Explore");
-
+     console.info("ExplorePage locale:", locale);
+     const t = await getTranslations("Explore");
     const {
         generationList = [],
         pageNo,

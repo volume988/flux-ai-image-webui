@@ -93,13 +93,15 @@ const ImageDetails = ({ generation }: any) => {
         }
         setDownLoading(true);
         // window.open(generation.url, "_blank");
-        onDownloadR2(
-            generation.url.replace(/https:\/\/[^\/]+(\/)*/, ""),
-            () => {
+        //onDownloadR2(
+        //    generation.url.replace(/https:\/\/[^\/]+(\/)*/, ""),
+        //    () => {
                 setDownLoading(false);
-            }
-        );
-        // onDownload(`fluximageai/generated/CQHex-1a.jpg`)
+        //    }
+        //);
+        onDownload(generation.url, onDownloaded);
+        setDownLoading(false);
+        //onDownload(`fluximageai/generated/CQHex-1a.jpg`)
     };
 
     const updatePublic = async (value: boolean) => {
@@ -163,11 +165,11 @@ const ImageDetails = ({ generation }: any) => {
                         <div className="absolute bottom-4 end-4">
                             <div className="gen-image-toolbars flex">
                                 <ImageToolbar
-                                    imgUrl={generation.url}
-                                    // imgUrl="https://images.unsplash.com/photo-1680193895115-b51b4ed5392f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
+                                    // imgUrl={generation.url}
+                                    imgUrl="https://images.unsplash.com/photo-1680193895115-b51b4ed5392f?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=560&q=80"
                                     handleDownload={handleDownload}
                                     handleMaximize={handleMaximize}
-                                    disabledDownload={true}
+                                    disabledDownload={false}
                                     disabledShare={true}
                                 />
                             </div>

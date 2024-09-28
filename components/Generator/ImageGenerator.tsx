@@ -413,6 +413,8 @@ const ImageGenerator = ({ user, generated }: any) => {
                                                     handleMaximize={
                                                         handleMaximize
                                                     }
+                                                    disabledDownload={false}
+                                                    disabledShare={true}
                                                 />
                                             </div>
                                             {/* or share by link */}

@@ -14,6 +14,10 @@ replicate.fetch = (url, options) => {
   return fetch(url, { cache: "no-store", ...options });
 };
 
+function getImageUrlSuffix(url:string) {
+    return url.substring(url.lastIndexOf('.'));
+}
+
 export async function GET(request: Request, { params }: any) {
   noStore();
   // handle replicate / fal ... api
@@ -30,9 +34,10 @@ export async function GET(request: Request, { params }: any) {
   console.log('Get prediction: %s,Res:%o', predictionId, prediction);
   if (prediction.status === "succeeded" && prediction.output !== null && prediction.output.length > 0 ) {
   console.info("Get prediction succeeded:", predictionId, prediction);
-  const name = predictionId + '.png'
   let url = prediction.output !== null && prediction.output.length >= 1 ? prediction.output[0]: '';
   const buffer = await getFileStream(url);
+  const urlSuffix = getImageUrlSuffix(url);
+  const name = predictionId + urlSuffix;
   const uploadParams = {
        FileName: name,
        fileBuffer: buffer,

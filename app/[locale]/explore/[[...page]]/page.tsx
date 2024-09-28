@@ -30,8 +30,8 @@ export async function generateMetadata({ params }: any) {
                 params.locale === "en" ? "" : `/${params.locale}`
             }${
                 !params.page || params.page[0] === 1
-                    ? `/explore-image`
-                    : `/explore-image/${params.page[0]}`
+                    ? `/explore`
+                    : `/explore/${params.page[0]}`
             }`,
             languages: {
                 ...Object.fromEntries(
@@ -39,8 +39,8 @@ export async function generateMetadata({ params }: any) {
                 ),
                 "x-default": `${
                     !params.page || params.page[0] === 1
-                        ? `/explore-image`
-                        : "/explore-image/" + params.page[0]
+                        ? `/explore`
+                        : "/explore/" + params.page[0]
                 }`,
             },
         },
@@ -98,7 +98,7 @@ export default async function ExplorePage({
             ) : (
                 <ImageGallery
                     generationList={generationList}
-                    urlPrefix="/explore-image"
+                    urlPrefix="/explore"
                     pageNo={page[0]}
                     total={total}
                     pageSize={pageSize}
