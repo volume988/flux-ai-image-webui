@@ -38,7 +38,7 @@ git clone https://github.com/volume988/flux-ai-image-webui.git
 #### 2. Install dependencies
 
 ```
-cd imagetoprompt-ai
+cd flux-ai-image-webui
 pnpm i
 ```
 
